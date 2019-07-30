@@ -215,6 +215,7 @@
             "7/16",
             "1/2",
             "5/8",
+            "3/4",
             "7/8",
             "1"});
             this.thickBox.Location = new System.Drawing.Point(97, 274);
