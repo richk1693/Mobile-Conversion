@@ -59,7 +59,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>calc2.ico</ApplicationIcon>
@@ -83,6 +83,7 @@
     <Compile Include="Clearance.Designer.cs">
       <DependentUpon>Clearance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Constants\ConstantManager.cs" />
     <Compile Include="Converter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,7 +136,6 @@
     <EmbeddedResource Include="Tonnage.resx">
       <DependentUpon>Tonnage.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="AP Calculator_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

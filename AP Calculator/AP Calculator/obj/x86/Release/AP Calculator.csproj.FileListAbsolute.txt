@@ -14,3 +14,13 @@ F:\Work\American Punch\Mobile Conversion\AP Calculator\AP Calculator\bin\Release
 F:\Work\American Punch\Mobile Conversion\AP Calculator\AP Calculator\bin\Release\AP Calculator.application
 F:\Work\American Punch\Mobile Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP Calculator.exe.manifest
 F:\Work\American Punch\Mobile Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP Calculator.application
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP Calculator.exe
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP Calculator.pdb
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP Calculator.csprojResolveAssemblyReference.cache
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP_Calculator.Clearance.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP_Calculator.Converter.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP_Calculator.Diagonals.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP_Calculator.Form1.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP_Calculator.Properties.Resources.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP_Calculator.Tonnage.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Release\AP Calculator.csproj.GenerateResource.Cache

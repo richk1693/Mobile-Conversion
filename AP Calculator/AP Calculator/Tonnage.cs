@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AP_Calculator.Constants;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -98,11 +99,6 @@ namespace AP_Calculator
                     }
             }
 
-
-           // holeNumLab.Text = extra.ToString();
-            //lenNumLab.Text = num.ToString();
-            //widNumLab.Text = den.ToString();
-            //thickNumLab.Text = result.ToString();
             return result;
         }
 
@@ -172,39 +168,39 @@ namespace AP_Calculator
             double z =0;
             if (shapeBox.Text == "Round"  || shapeBox.Text == "Square")
             {
-                p50 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * 80);
-                p65 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * 102);
-                p75 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * 118);
-                p85 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * 134);
-                g50 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * 128);
-                stain = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * 120);
-                steel = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * 99);
-                alu = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * 29);
+                p50 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * ConstantManager.multi_50kTensile);
+                p65 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * ConstantManager.multi_65kTensile);
+                p75 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * ConstantManager.multi_75kTensile);
+                p85 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * ConstantManager.multi_85kTensile);
+                g50 = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * ConstantManager.multi_50Carbon);
+                stain = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * ConstantManager.multi_303stainless);
+                steel = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * ConstantManager.multi_1018);
+                alu = Math.Ceiling(Double.Parse(holeNumLab.Text) * Double.Parse(thickNumLab.Text) * ConstantManager.multi_2024Aluminum);
             }
             else if (shapeBox.Text == "Rectangle")
             {
                 double start = (((Double.Parse(lenNumLab.Text) + Double.Parse(widNumLab.Text))*0.63)*Double.Parse(thickNumLab.Text));
-                p50 = Math.Ceiling(start*80);
-                p65 = Math.Ceiling(start * 102);
-                p75 = Math.Ceiling(start * 118);
-                p85 = Math.Ceiling(start * 134);
-                g50 = Math.Ceiling(start * 128);
-                stain = Math.Ceiling(start * 120);
-                steel = Math.Ceiling(start * 99);
-                alu = Math.Ceiling(start * 29);
+                p50 = Math.Ceiling(start* ConstantManager.multi_50kTensile);
+                p65 = Math.Ceiling(start * ConstantManager.multi_65kTensile);
+                p75 = Math.Ceiling(start * ConstantManager.multi_75kTensile);
+                p85 = Math.Ceiling(start * ConstantManager.multi_85kTensile);
+                g50 = Math.Ceiling(start * ConstantManager.multi_50Carbon);
+                stain = Math.Ceiling(start * ConstantManager.multi_303stainless);
+                steel = Math.Ceiling(start * ConstantManager.multi_1018);
+                alu = Math.Ceiling(start * ConstantManager.multi_2024Aluminum);
             }
             else if (shapeBox.Text == "Oblong")
             {
                 z = Double.Parse(lenNumLab.Text) - Double.Parse(widNumLab.Text);
                 double start = ((0.63 * z)+Double.Parse(widNumLab.Text))*Double.Parse(thickNumLab.Text);
-                p50 = Math.Ceiling(start * 80);
-                p65 = Math.Ceiling(start * 102);
-                p75 = Math.Ceiling(start * 118);
-                p85 = Math.Ceiling(start * 134);
-                g50 = Math.Ceiling(start * 128);
-                stain = Math.Ceiling(start * 120);
-                steel = Math.Ceiling(start * 99);
-                alu = Math.Ceiling(start * 29);
+                p50 = Math.Ceiling(start * ConstantManager.multi_50kTensile);
+                p65 = Math.Ceiling(start * ConstantManager.multi_65kTensile);
+                p75 = Math.Ceiling(start * ConstantManager.multi_75kTensile);
+                p85 = Math.Ceiling(start * ConstantManager.multi_85kTensile);
+                g50 = Math.Ceiling(start * ConstantManager.multi_50Carbon);
+                stain = Math.Ceiling(start * ConstantManager.multi_303stainless);
+                steel = Math.Ceiling(start * ConstantManager.multi_1018);
+                alu = Math.Ceiling(start * ConstantManager.multi_2024Aluminum);
             }
 
             calc50.Text = p50.ToString();

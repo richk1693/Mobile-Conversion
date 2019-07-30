@@ -31,3 +31,19 @@ F:\Work\American Punch\Mobile Conversion\AP Calculator\AP Calculator\bin\Debug\A
 F:\Work\American Punch\Mobile Conversion\AP Calculator\AP Calculator\bin\Debug\AP Calculator.application
 F:\Work\American Punch\Mobile Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP Calculator.exe.manifest
 F:\Work\American Punch\Mobile Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP Calculator.application
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP Calculator.exe
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP Calculator.pdb
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP Calculator.csprojResolveAssemblyReference.cache
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP_Calculator.Clearance.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP_Calculator.Converter.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP_Calculator.Diagonals.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP_Calculator.Form1.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP_Calculator.Properties.Resources.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP_Calculator.Tonnage.resources
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP Calculator.csproj.GenerateResource.Cache
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\bin\Debug\AP Calculator.exe.manifest
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\bin\Debug\AP Calculator.application
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\bin\Debug\AP Calculator.exe
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\bin\Debug\AP Calculator.pdb
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP Calculator.exe.manifest
+C:\Users\idkmybff\dev\Mobile-Conversion\AP Calculator\AP Calculator\obj\x86\Debug\AP Calculator.application
