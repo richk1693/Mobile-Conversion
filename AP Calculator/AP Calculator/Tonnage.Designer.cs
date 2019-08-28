@@ -64,6 +64,7 @@
             this.calcSteel = new System.Windows.Forms.Label();
             this.calcAlu = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.legalWarning = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -643,12 +644,25 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AP_Calculator.Properties.Resources.Banner1;
-            this.pictureBox1.Location = new System.Drawing.Point(139, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(-9, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(430, 115);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 34;
             this.pictureBox1.TabStop = false;
+            // 
+            // legalWarning
+            // 
+            this.legalWarning.AutoSize = true;
+            this.legalWarning.BackColor = System.Drawing.Color.Yellow;
+            this.legalWarning.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.legalWarning.ForeColor = System.Drawing.Color.Red;
+            this.legalWarning.Location = new System.Drawing.Point(446, 29);
+            this.legalWarning.Name = "legalWarning";
+            this.legalWarning.Size = new System.Drawing.Size(244, 60);
+            this.legalWarning.TabIndex = 35;
+            this.legalWarning.Text = "These calculations are an \r\napproximation and should be \r\nused as a guide only.";
+            this.legalWarning.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Tonnage
             // 
@@ -656,6 +670,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(702, 374);
+            this.Controls.Add(this.legalWarning);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.calcAlu);
             this.Controls.Add(this.calcSteel);
@@ -741,5 +756,6 @@
         private System.Windows.Forms.Label calcSteel;
         private System.Windows.Forms.Label calcAlu;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label legalWarning;
     }
 }
